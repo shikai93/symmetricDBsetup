@@ -1,0 +1,12 @@
+nodeid,000
+binary,BASE64
+channel,tags
+batch,54
+catalog,
+schema,
+table,tagsrawdata
+keys,timerecorded,value
+columns,timerecorded,value,tagname
+basetime,1607571734251
+insert,"2020-12-10 11:42:14.251122 +08:00","1","test"
+commit,54

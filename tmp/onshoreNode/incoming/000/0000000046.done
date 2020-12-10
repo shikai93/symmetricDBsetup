@@ -1,0 +1,14 @@
+nodeid,000
+binary,BASE64
+channel,config
+batch,46
+catalog,
+schema,
+table,sym_table_reload_request
+keys,target_node_id,source_node_id,trigger_id,router_id,create_time
+columns,target_node_id,source_node_id,trigger_id,router_id,create_time,create_table,delete_first,reload_select,before_custom_sql,reload_time,load_id,processed,channel_id,last_update_by,last_update_time
+basetime,1607571636135
+insert,"001","000","ALL","ALL","2020-12-10 11:40:36.000000","0","0",,,,,"0",,,"2020-12-10 11:40:36.131000"
+ts,-43
+update,"001","000","ALL","ALL","2020-12-10 11:40:36.000000","0","0",,,,"2","0",,,"2020-12-10 11:40:36.178000","001","000","ALL","ALL","2020-12-10 11:40:36.000000"
+commit,46

@@ -1,0 +1,12 @@
+nodeid,000
+binary,BASE64
+channel,config
+batch,43
+catalog,
+schema,
+table,sym_node
+keys,node_id
+columns,node_id,node_group_id,external_id,sync_enabled,sync_url,schema_version,symmetric_version,config_version,database_type,database_version,database_name,batch_to_send_count,batch_in_error_count,created_at_node_id,deployment_type,deployment_sub_type
+basetime,1607571624387
+update,"001","onshore","001","1","http://SGKOMRIGKFWS2:31415/sync/onshoreNode","?","3.12.4",,"PostgreSQL","12.4","postgres95","0","0","000","server",,"001"
+commit,43

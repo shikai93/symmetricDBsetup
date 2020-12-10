@@ -1,0 +1,12 @@
+nodeid,000
+binary,BASE64
+channel,reload
+batch,51
+catalog,
+schema,
+table,sym_node_security
+keys,node_id
+columns,node_id,node_password,registration_enabled,registration_time,initial_load_enabled,initial_load_time,initial_load_id,initial_load_create_by,rev_initial_load_enabled,rev_initial_load_time,rev_initial_load_id,rev_initial_load_create_by,failed_logins,created_at_node_id
+basetime,1607571636628
+update,"001","4sT3XbI3nRb8OzsIU3exHYnWlLQAg4","0","2020-12-10 11:40:26.058866","0","2020-12-10 11:40:36.717000","2","registration","0",,"0",,"0","000","001"
+commit,51
