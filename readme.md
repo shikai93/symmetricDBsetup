@@ -2,8 +2,10 @@
 This is a setup initialization file to setup a master and a slave node for postgresql driver. Master Node (offshore)'s changes would be implemented as is on the Slave Node (onshore). This Symmetric Database program should live on an intermediate instance between master and slave node or on the master db itself. 
 
 ## Instructions
-1. Set up timescaleDB if needed first 
-    More info here [Timescale DB](https://docs.timescale.com/latest/getting-started/installation)
+1. Set up timescaleDB if needed first
+
+   More info here [Timescale DB](https://docs.timescale.com/latest/getting-started/installation) 
+
 2. Modify the two properties files in the engines folder to set the right postgresql url for both nodes along with the postgresql credentials for the database
 3. Run `./bin/symadmin --engine offshoreNode create-sym-tables` where offshodeNode is the engine name of the master node defined in the engine folder, offshore.properties
 4. Run the sql queries defined in bin/initialize.sql to insert the corresponding node, groups, routers, trigger_router, channel and group_links.
